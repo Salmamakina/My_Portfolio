@@ -59,7 +59,7 @@ export const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            <img src={colorSharp} className='backgroung-image-left' alt='Image'/>
+            <img src={colorSharp} className='background-image-left' alt='Image'/>
         </section>
       )
 
