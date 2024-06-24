@@ -8,7 +8,7 @@ import navIcon3 from '../assets/img/nav-icon3.svg';
 
 
 
-export const NavBar = () => {
+export const NavBar = ({ contactRef }) => {
     // activate the link of home
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScolled] = useState(false);
@@ -28,6 +28,9 @@ export const NavBar = () => {
     const onUpdateActiveLink = (value) => {
         setActiveLink(value);
     }
+    const handleConnectClick = () => {
+        contactRef.current.scrollIntoView({ behavior: 'smooth' });
+    };
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
@@ -49,7 +52,7 @@ export const NavBar = () => {
                         <a href="https://www.facebook.com/profile.php?id=100055834089001" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="" /></a>
                         <a href="https://github.com/Salmamakina" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="" /></a>
                     </div>
-                    <buttom className="vvd" onClick={() => console.log('connect')} ><span>Let's Connect</span></buttom>
+                    <buttom className="vvd" onClick={handleConnectClick} ><span>Let's Connect</span></buttom>
                 </span>
                 </Navbar.Collapse>
             </Container>
