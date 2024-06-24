@@ -70,8 +70,8 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 .me-auto{
-  margin-right: 15% !important;
-  margin-left: 35%;
+  margin-right: 10% !important;
+  margin-left: 15%;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -218,6 +218,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+.my-logo{
+  font-size: 60px;
+  font-weight: 700;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -330,7 +338,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin:0 auto 15px auto ;
 }
 .background-image-left {
-  top: 40%;
+  top: 30%;
   position: absolute;
   bottom: 0;
   width: 40%;

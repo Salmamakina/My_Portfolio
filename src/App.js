@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useRef } from "react";
@@ -8,7 +7,7 @@ import { Banner } from "./components/Banner";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
-// import { Footer } from "./components/Footer";
+import { Resume } from "./components/Resume";
 
 
 function App() {
@@ -17,6 +16,7 @@ function App() {
     <div className="App">
        <NavBar contactRef={contactRef} />
        <Banner contactRef={contactRef}/>
+       <Resume/>
        <Skills />
        <Projects />
        <Contact ref={contactRef} />
