@@ -1,26 +1,22 @@
 import React from 'react';
 import resumeImage1 from '../assets/img/1.jpg';
 import resumeImage2 from '../assets/img/2.jpg';
+import axios from 'axios';
 
 function Resume() {
-  const handleDownloadResume = () => {
-    // Logique pour télécharger le PDF du CV
-    // Vous pouvez utiliser une bibliothèque comme `file-saver` pour faciliter le téléchargement
-    window.open('/D:/Downloads/CV Salma Makina.pdf', '_blank');
-  };
-
-  return (
-    <div className="resume-page">
-      <h1>My Resume</h1>
-      <div className="resume-images">
-        <img src={resumeImage1} alt="Resume Page 1" />
-        <img src={resumeImage2} alt="Resume Page 2" />
-      </div>
-      <button className="download-btn" onClick={handleDownloadResume}>
+    const resumeUrl = 'https://drive.google.com/file/d/1tkKqVvUMVOT-UQXWMQCZiuoNAn1QHCWK/view?usp=drive_open&edoph=true';
+    return (
+        <div className="resume-page">
+        <h1>My Resume</h1>
+        <div className="resume-images">
+            <img src={resumeImage1} alt="Resume Page 1" />
+            <img src={resumeImage2} alt="Resume Page 2" />
+        </div>
+        <button className="download-btn" onClick={() => window.open(resumeUrl, '_blank')}>
         Download Resume
-      </button>
-    </div>
-  );
+        </button>
+        </div>
+    );
 }
 
 export default Resume;
