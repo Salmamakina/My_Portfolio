@@ -59,3 +59,4 @@ export const Banner = ({contactRef}) =>{
         </section>
     )
 }
+export default Banner;

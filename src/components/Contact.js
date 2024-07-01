@@ -62,7 +62,7 @@ export const Contact = forwardRef((props, ref) => {
             );
     };
     return (
-        <section className="contact" id="connect" ref={ref}>
+        <section className="contact" id="contact" ref={ref}>
             <Container>
                 <Row className="align-items-center">
                     <Col md={6}>
@@ -106,3 +106,4 @@ export const Contact = forwardRef((props, ref) => {
 
     );
 });
+export default Contact;

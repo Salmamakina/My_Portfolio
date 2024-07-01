@@ -1,12 +1,12 @@
 import React from 'react';
 import resumeImage1 from '../assets/img/1.jpg';
 import resumeImage2 from '../assets/img/2.jpg';
-import axios from 'axios';
 
-function Resume() {
+function Resume( {contactRef}) {
     const resumeUrl = 'https://drive.google.com/file/d/1tkKqVvUMVOT-UQXWMQCZiuoNAn1QHCWK/view?usp=drive_open&edoph=true';
+    
     return (
-        <div className="resume-page">
+        <div className="resume-page" id='resume-section'>
         <h1>My Resume</h1>
         <div className="resume-images">
             <img src={resumeImage1} alt="Resume Page 1" />

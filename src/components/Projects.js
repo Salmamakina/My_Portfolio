@@ -39,7 +39,7 @@ export const Projects = () => {
         },
       ];
     return (
-        <section className="project" id="projects">
+        <section className="project" id="projects-section">
             <Container>
                 <Row>
                     <Col>
@@ -85,3 +85,4 @@ export const Projects = () => {
         </section>
     )
 }
+export default Projects;

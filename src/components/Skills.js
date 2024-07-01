@@ -28,7 +28,7 @@ export const Skills = () => {
       };
 
       return (
-        <section className='skill' id = 'skills'>
+        <section className='skill' id = 'skills-section'>
             <Container>
                 <Row>
                     <Col>
@@ -64,3 +64,4 @@ export const Skills = () => {
       )
 
 }
+export default Skills;
