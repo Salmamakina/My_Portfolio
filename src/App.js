@@ -7,6 +7,7 @@ import Banner from './components/Banner';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import ResumeLayout from './components/ResumeLayout';
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -29,6 +30,7 @@ const Home = ({ contactRef }) => {
         <Projects />
       </section>
       <Contact ref={contactRef} />
+      <Footer/>
     </div>
   );
 };
