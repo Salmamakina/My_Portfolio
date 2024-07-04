@@ -1,7 +1,7 @@
 import { useState, forwardRef} from "react"
 import emailjs from "emailjs-com";
 import { Container,Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg from "../assets/img/contact-us-concept-landing-page.png";
 emailjs.init('la3g5tpy-bvZHSH4V');
 export const Contact = forwardRef((props, ref) => {
     const formInitialDetails = {

@@ -5,6 +5,7 @@ import projImg1 from "../assets/img/rotaract.png";
 import projImg2 from "../assets/img/home.png";
 import projImg3 from "../assets/img/java.png";
 import projImg4 from "../assets/img/default detection.png";
+import projImg5 from "../assets/img/screenshot (2).png";
 
 
 export const Projects = () => {
@@ -35,6 +36,13 @@ export const Projects = () => {
           description: "Number guessing game <br> Library management system <br> Hangman game <br> Student course registration system <br> Email App <br> Scientific calculator <br> Brick breaker game",
           imgUrl: projImg3,
           githubUrl : "https://github.com/Salmamakina/CognoRise-InfoTech"
+        },
+        {
+          title: "Mobile Development",
+          description: "Tik Tac Toe game using Flutter",
+          imgUrl: projImg5,
+          githubUrl : "https://github.com/Salmamakina/Tic-Tac-Toe-Flutter"
+          
         },
 
       ]

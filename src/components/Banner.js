@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/astronaut1.png";
+import headerImg from "../assets/img/astronaut.png";
 
 export const Banner = ({contactRef}) =>{
     const toRotate = [ "a second-year software engineering student at ENSI"];
