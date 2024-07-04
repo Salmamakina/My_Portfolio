@@ -42,11 +42,16 @@ h1, h2, h3, h4, h5, h6 {
   line-height: normal;
 }
 
-@media (min-width:1700px) {
+/* @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
 		padding: 0 150px;
 	}
+} */
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
 }
 
 p.success {
